@@ -9,7 +9,7 @@
 set -xe
 
 while true; do
-    sleep 5;
+    sleep 7;
     inotifywait -e modify -d -o '.' main.tex
   xelatex main.tex
 done
